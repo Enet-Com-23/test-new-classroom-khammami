@@ -1,6 +1,46 @@
 {
   "tests": [
     {
+      "name": "Q1",
+      "setup": ". ./setenv.sh && ./decrypt_answers.sh",
+      "run": "./check_questions.sh 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q2",
+      "setup": ". ./setenv.sh && ./decrypt_answers.sh",
+      "run": "./check_questions.sh 2",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q3",
+      "setup": ". ./setenv.sh && ./decrypt_answers.sh",
+      "run": "./check_questions.sh 3",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q4",
+      "setup": ". ./setenv.sh && ./decrypt_answers.sh",
+      "run": "./check_questions.sh 4",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
       "name": "Q5",
       "setup": ". ./setenv.sh && ./decrypt_answers.sh",
       "run": "./check_questions.sh 5",
